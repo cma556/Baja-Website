@@ -1,0 +1,102 @@
+header{
+    height: 225px;
+    text-align: center;
+    
+ }
+ 
+ nav{
+    background-color:rgba(66, 66, 66, 0.39);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+ }
+ nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ body{
+    background-color:  rgb(36, 43, 40);
+ }
+   
+        
+        
+        main {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #ffffff;
+            margin-top: 30px;
+        }
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .team-member {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .team-member h3 {
+            color: #333;
+            font-size: 22px;
+            margin: 15px 0 5px;
+        }
+        .team-member p {
+            color: #777;
+            font-size: 16px;
+            margin: 0;
+        }
+        footer{ 
+            background-color: rgb(66, 66, 66,0.39);
+            text-align: center;
+           }
+        footer p {
+            text-align: center;
+            font-size: 14px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            text-align:center ;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-style: italic;
+         } 
+         
+         footer a{
+            text-align: center;
+            font-size:10px;
+            color: white;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+
+         .contain{
+            margin-left: auto;
+            margin-right: auto;
+            width: 1024px;
+         }
